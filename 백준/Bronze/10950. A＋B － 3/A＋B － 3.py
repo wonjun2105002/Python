@@ -1,6 +1,4 @@
 n = int(input())
-
-while n > 0:
+for i in range (n):
     a, b = map(int, input().split())
     print (a+b)
-    n = n-1
